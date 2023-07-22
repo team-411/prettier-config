@@ -1,0 +1,22 @@
+{
+  "name": "@team-411/prettier-config",
+  "version": "1.0.0",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "lint": "eslint --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@commitlint/types": "^17.4.4",
+    "@team-411/eslint-config": "github:team-411/eslint-config",
+    "@types/node": "^20.4.3",
+    "eslint": "^8.45.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}

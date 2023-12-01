@@ -1,1 +1,1 @@
-export * from "./.prettierrc.js";
+export * as default from "./.prettierrc.js";

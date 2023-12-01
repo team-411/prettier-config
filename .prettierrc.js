@@ -5,5 +5,6 @@ module.exports = {
   semi: true,
   singleQuote: false,
   trailingComma: "none",
-  endOfLine: "lf"
+  endOfLine: "lf",
+  arrowParens: "always"
 };
